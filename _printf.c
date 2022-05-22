@@ -10,7 +10,7 @@
   */
 int _printf(const char *format, ...)
 {
-	int i, len_format = 1024, charptr;
+	int i, len_format = 2048, charptr;
 	int *num = &charptr;
 	char *ch = (char *)num;
 	char *str;
@@ -19,8 +19,6 @@ int _printf(const char *format, ...)
 
 	va_start(args, format);
 
-	while (format[len_format])
-		len_format++;
 
 	for (i = 0; i < len_format; i++)
 	{
