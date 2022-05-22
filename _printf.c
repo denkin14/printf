@@ -10,7 +10,7 @@
   */
 int _printf(const char *format, ...)
 {
-	int i, len_format = 0, charptr;
+	int i, len_format = 1024, charptr;
 	int *num = &charptr;
 	char *ch = (char *)num;
 	char *str;
