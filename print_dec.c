@@ -12,7 +12,6 @@ int print_dec(va_list dec)
 	int a[10];
 	int j, m, n;
 	int sum, count = 0;
-
 	n = va_arg(dec, int);
 
 	m = 1000000000;

@@ -11,8 +11,8 @@ int print_num(va_list n)
 {
 	long int num;
 	int next_num, counter = 0, next;
-
 	num = va_arg(n, int);
+
 	if (num < 0)
 	{
 		num *= -1;

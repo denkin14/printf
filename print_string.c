@@ -12,7 +12,6 @@
 int print_string(va_list s)
 {
 	char *str;
-
 	int i;
 
 	str = va_arg(s, char*);
@@ -22,7 +21,6 @@ int print_string(va_list s)
 		write(1, "(null)", 6);
 		return (6);
 	}
-
 	else
 	{
 		for (i = 0; str[i] != '\0'; i++)
