@@ -4,10 +4,10 @@
 #include <unistd.h>
 #include <stdio.h>
 /**
- * print_string - Print a string
+ * print_string - print a string
  * @s: va_list
  *
- * Return: The character otherwise (NULL)
+ * Return: the character otherwise (NULL)
  */
 int print_string(va_list s)
 {
