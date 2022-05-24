@@ -3,7 +3,7 @@
 
 /**
  * print_dec - prints decimal numbers.
- * @dec: number to be printed.
+ * @dec: number that is to be printed.
  *
  * Return: count.
  */
