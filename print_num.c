@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdarg.h>
 /**
-* print_num - Print number
+* print_num - print number
 * @n: va_list
 *
 * Return: count.
