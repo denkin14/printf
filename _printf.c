@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* _printf - all the logic for the printf project.
+* _printf - all of the logic for the printf project.
 * @format: string specifier formats.
 *
 * Return: Gives The length(char_num++).
