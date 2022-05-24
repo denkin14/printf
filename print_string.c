@@ -11,22 +11,22 @@
  */
 int print_string(va_list s)
 {
-	char *str;
-	int i;
+	char *my_str;
+	int d;
 
-	str = va_arg(s, char*);
+	my_str = va_arg(s, char*);
 
-	if (str == NULL)
+	if (my_str == NULL)
 	{
 		write(1, "(null)", 6);
 		return (6);
 	}
 	else
 	{
-		for (i = 0; str[i] != '\0'; i++)
+		for (d = 0; my_str[d] != '\0'; d++)
 		{
-			_putchar(str[i]);
+			_putchar(my_str[d]);
 		}
 	}
-	return (i);
+	return (d);
 }
