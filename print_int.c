@@ -3,7 +3,7 @@
 #include <stdarg.h>
 
 /**
-* print_int - Print number
+* print_int - print number
 * @n: va_list
 *
 * Return: count.
