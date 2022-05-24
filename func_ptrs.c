@@ -3,7 +3,7 @@
 #include <stddef.h>
 #include "main.h"
 /**
-* func - Pointer to function va_list.
+* func - pointer to function va_list.
 * @chars: pointer to chars.
 *
 * Return: ALWAYS ZERO.
