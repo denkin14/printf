@@ -3,7 +3,7 @@
 #include <stdarg.h>
 
 /**
-  * print_c - print character
+  * print_c - print characters
   * @c: va_list
   *
   * Return: 1.
