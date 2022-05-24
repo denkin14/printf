@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_dec - prints a decimal number.
+ * print_dec - prints decimal number.
  * @dec: number to be printed.
  *
  * Return: count.
